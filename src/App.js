@@ -23,29 +23,10 @@ this.fetchApi();
             console.log(error)
         })
      
-
-        // const apiURL = await fetch(
-        //     'https://api.adviceslip.com/advice'
-        //   );
-        //    const response = await apiURL.json();
-        //  console.log(response);
-        // var url = 'https://api.adviceslip.com/advice';
-        // await fetch(url).then((response) => response.json())
-        //           .then(function(data) {  
-        //             console.log(data.slip.advice);})
-        //           .catch((error) => console.log(error));
-        // const apiURL = await fetch(
-        //     'https://api.adviceslip.com/advice')
-        //     .then((response)=>{
-        //         console.log(response);
-        //     })
-        //     .catch((error)=>{
-        //         console.log(error)
-        //     })           
+  
     })
     render(){
         return (
-            // <h1>{this.state.advice}</h1>
             <div className="app">
                 <div className="card">
                     <div className="heading">{this.state.advice}

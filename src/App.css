@@ -32,8 +32,7 @@ font-family: 'Spartan', sans-serif;
   }
   
   .heading {
-    /* display: flex;
-    align-items: center; */
+   
     height: 582px;
   }
   
@@ -45,7 +44,6 @@ font-family: 'Spartan', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* cursor: pointer; */
     text-transform: uppercase;
     margin-top: 40px;
     height: 30px;
